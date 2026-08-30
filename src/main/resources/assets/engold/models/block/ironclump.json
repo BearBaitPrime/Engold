@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "engold:block/ironclumptex",
+    "up": "engold:block/ironclumptex",
+    "north": "engold:block/ironclumptex",
+    "east": "engold:block/ironclumptex",
+    "south": "engold:block/ironclumptex",
+    "west": "engold:block/ironclumptex",
+    "particle": "engold:block/ironclumptex"
+  }
+}

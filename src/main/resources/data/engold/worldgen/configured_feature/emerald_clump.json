@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 42,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "stone_ore_replaceables"
+        },
+        "state": {
+          "Name": "engold:emerald_clump"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "engold:emerald_clump"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:cave_air"
+          }
+        },
+        "state": {
+          "Name": "engold:emerald_clump"
+        }
+      }
+    ]
+  }
+}

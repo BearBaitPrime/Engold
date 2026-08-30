@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "engold:calamity_clump",
+    "engold:emerald_clump",
+    "engold:diamond_clump"
+  ]
+}
