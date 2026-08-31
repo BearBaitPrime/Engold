@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "engold:purified_graphene_ore",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "engold:reinforcement_beam",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "engold:purified_graphene_ore",
+    "b": "engold:reinforcement_beam"
+  },
+  "result": {
+    "id": "engold:reinforced_graphene_pickaxe",
+    "count": 1
+  }
+}

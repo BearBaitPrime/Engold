@@ -11,5 +11,10 @@
   "item.engold.graphene_pickaxe": "Graphene Pickaxe",
   "item.engold.mega_clump_flesh": "Mega Clump Flesh",
   "item.engold.minerals": "Minerals",
-  "item.engold.stone_rubble": "Stone Rubble"
+  "item.engold.stone_rubble": "Stone Rubble",
+  "item.engold.reinforcement_beam": "Reinforcement Beam",
+  "item.engold.purified_graphene_ore": "Purified Graphene Ore",
+  "item.engold.reinforced_graphene_pickaxe": "Reinforced Graphene Pickaxe",
+  "item.engold.nepherite_jade_ore": "Nepherite Jade Ore",
+  "item.engold.nepherite_jade": "Nepherite Jade"
 }

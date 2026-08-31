@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "engold:graphene",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "engold:graphene_pickaxe",
+    "count": 1
+  }
+}

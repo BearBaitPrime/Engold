@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:Graphene"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 50.0,
+    "cookingTime": 50,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": "CUSTOM:Graphene",
+    "campfireCookingReturnStack": "CUSTOM:PurifiedGrapheneOre",
+    "name": "purified_graphene_ore_craft",
+    "namespace": "mod"
+  }
+}

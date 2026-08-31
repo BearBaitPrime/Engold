@@ -12,10 +12,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.engold.item.StoneRubbleItem;
-import net.mcreator.engold.item.MineralsItem;
-import net.mcreator.engold.item.GraphenePickaxeItem;
-import net.mcreator.engold.item.GrapheneItem;
+import net.mcreator.engold.item.*;
 import net.mcreator.engold.EngoldMod;
 
 import java.util.function.Function;
@@ -33,6 +30,11 @@ public class EngoldModItems {
 	public static Item MEGA_CLUMP_FLESH;
 	public static Item MINERALS;
 	public static Item STONE_RUBBLE;
+	public static Item REINFORCEMENT_BEAM;
+	public static Item PURIFIED_GRAPHENE_ORE;
+	public static Item REINFORCED_GRAPHENE_PICKAXE;
+	public static Item NEPHERITE_JADE_ORE;
+	public static Item NEPHERITE_JADE;
 
 	public static void load() {
 		GOLD_CLUMP = block(EngoldModBlocks.GOLD_CLUMP, "gold_clump", new Item.Properties().rarity(Rarity.UNCOMMON));
@@ -47,6 +49,11 @@ public class EngoldModItems {
 		MEGA_CLUMP_FLESH = block(EngoldModBlocks.MEGA_CLUMP_FLESH, "mega_clump_flesh", new Item.Properties().rarity(Rarity.UNCOMMON));
 		MINERALS = register("minerals", MineralsItem::new);
 		STONE_RUBBLE = register("stone_rubble", StoneRubbleItem::new);
+		REINFORCEMENT_BEAM = register("reinforcement_beam", ReinforcementBeamItem::new);
+		PURIFIED_GRAPHENE_ORE = register("purified_graphene_ore", PurifiedGrapheneOreItem::new);
+		REINFORCED_GRAPHENE_PICKAXE = register("reinforced_graphene_pickaxe", ReinforcedGraphenePickaxeItem::new);
+		NEPHERITE_JADE_ORE = block(EngoldModBlocks.NEPHERITE_JADE_ORE, "nepherite_jade_ore", new Item.Properties().rarity(Rarity.RARE));
+		NEPHERITE_JADE = register("nepherite_jade", NepheriteJadeItem::new);
 	}
 
 	// Start of user code block custom items

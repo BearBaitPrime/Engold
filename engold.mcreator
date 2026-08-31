@@ -284,6 +284,140 @@
         ]
       },
       "path": "~/Major/Crafting"
+    },
+    {
+      "name": "GraphenePickaxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphene_pickaxe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/advancement/recipes/graphene_pickaxe_craft.json",
+          "src/main/resources/data/engold/recipe/graphene_pickaxe_craft.json"
+        ]
+      },
+      "path": "~/Major/Crafting"
+    },
+    {
+      "name": "ReinforcementBeam",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcement_beam",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/items/reinforcement_beam.json",
+          "src/main/java/net/mcreator/engold/item/ReinforcementBeamItem.java",
+          "src/main/resources/assets/engold/models/item/reinforcement_beam.json"
+        ]
+      },
+      "path": "~/Major/Items"
+    },
+    {
+      "name": "PurifiedGrapheneOre",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_graphene_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/item/purified_graphene_ore.json",
+          "src/main/resources/assets/engold/items/purified_graphene_ore.json",
+          "src/main/java/net/mcreator/engold/item/PurifiedGrapheneOreItem.java"
+        ]
+      },
+      "path": "~/Major/Items"
+    },
+    {
+      "name": "ReinforcementBeamCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcement_beam_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/recipe/reinforcement_beam_craft.json"
+        ]
+      },
+      "path": "~/Major/Crafting"
+    },
+    {
+      "name": "PurifiedGrapheneOreCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_graphene_ore_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/recipe/purified_graphene_ore_craft.json",
+          "src/main/resources/data/engold/advancement/recipes/purified_graphene_ore_craft.json"
+        ]
+      },
+      "path": "~/Major/Crafting"
+    },
+    {
+      "name": "ReinforcedGraphenePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_graphene_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/item/reinforced_graphene_pickaxe.json",
+          "src/main/java/net/mcreator/engold/item/ReinforcedGraphenePickaxeItem.java",
+          "src/main/resources/assets/engold/items/reinforced_graphene_pickaxe.json"
+        ]
+      },
+      "path": "~/Major/Tools"
+    },
+    {
+      "name": "ReinforcedGraphenePickaxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_graphene_pickaxe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/recipe/reinforced_graphene_pickaxe_craft.json"
+        ]
+      },
+      "path": "~/Major/Crafting"
+    },
+    {
+      "name": "NepheriteJadeOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nepherite_jade_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/block/nepherite_jade_ore.json",
+          "src/main/resources/data/engold/loot_table/blocks/nepherite_jade_ore.json",
+          "src/main/java/net/mcreator/engold/block/NepheriteJadeOreBlock.java",
+          "src/main/resources/assets/engold/blockstates/nepherite_jade_ore.json",
+          "src/main/resources/assets/engold/items/nepherite_jade_ore.json",
+          "src/main/resources/data/engold/worldgen/configured_feature/nepherite_jade_ore.json",
+          "src/main/resources/data/engold/worldgen/placed_feature/nepherite_jade_ore.json",
+          "src/main/resources/assets/engold/models/item/nepherite_jade_ore.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "NepheriteJade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nepherite_jade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/engold/item/NepheriteJadeItem.java",
+          "src/main/resources/assets/engold/items/nepherite_jade.json",
+          "src/main/resources/assets/engold/models/item/nepherite_jade.json"
+        ]
+      },
+      "path": "~/Major/Ores"
     }
   ],
   "variable_elements": [],
@@ -313,7 +447,12 @@
       "~GraphenePickaxe@CUSTOM:Graphene"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~ReinforcedGraphenePickaxe@CUSTOM:ReinforcedGraphenePickaxe",
       "~GraphenePickaxe@CUSTOM:GraphenePickaxe"
+    ],
+    "ITEMS:engold:reinforced_graphene_pickaxe_repair_items": [
+      "~ReinforcedGraphenePickaxe@CUSTOM:PurifiedGrapheneOre",
+      "~ReinforcedGraphenePickaxe@CUSTOM:ReinforcementBeam"
     ]
   },
   "tab_element_order": {},
@@ -331,7 +470,12 @@
       "item.engold.graphene_pickaxe": "Graphene Pickaxe",
       "item.engold.mega_clump_flesh": "Mega Clump Flesh",
       "item.engold.minerals": "Minerals",
-      "item.engold.stone_rubble": "Stone Rubble"
+      "item.engold.stone_rubble": "Stone Rubble",
+      "item.engold.reinforcement_beam": "Reinforcement Beam",
+      "item.engold.purified_graphene_ore": "Purified Graphene Ore",
+      "item.engold.reinforced_graphene_pickaxe": "Reinforced Graphene Pickaxe",
+      "item.engold.nepherite_jade_ore": "Nepherite Jade Ore",
+      "item.engold.nepherite_jade": "Nepherite Jade"
     }
   },
   "metadata": {
@@ -424,7 +568,7 @@
   "workspaceSettings": {
     "modid": "engold",
     "modName": "Engold",
-    "version": "0.0.1 Beta-release",
+    "version": "0.0.1 Beta-release-2",
     "description": "Read Curseforge page.",
     "author": "BearBait",
     "websiteURL": "https://mcreator.net",

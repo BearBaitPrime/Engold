@@ -24,6 +24,7 @@ public class EngoldModBlocks {
 	public static Block GRAPHENE_DEEPSLATE;
 	public static Block ANCIENT_DEEPSLATE;
 	public static Block MEGA_CLUMP_FLESH;
+	public static Block NEPHERITE_JADE_ORE;
 
 	public static void load() {
 		GOLD_CLUMP = register("gold_clump", GoldClumpBlock::new);
@@ -34,6 +35,7 @@ public class EngoldModBlocks {
 		GRAPHENE_DEEPSLATE = register("graphene_deepslate", GrapheneDeepslateBlock::new);
 		ANCIENT_DEEPSLATE = register("ancient_deepslate", AncientDeepslateBlock::new);
 		MEGA_CLUMP_FLESH = register("mega_clump_flesh", MegaClumpFleshBlock::new);
+		NEPHERITE_JADE_ORE = register("nepherite_jade_ore", NepheriteJadeOreBlock::new);
 	}
 
 	// Start of user code block custom blocks

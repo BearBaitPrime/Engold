@@ -31,6 +31,7 @@ public class EngoldModFeatures {
 		register("graphene_deepslate", new OreFeature(OreConfiguration.CODEC), GrapheneDeepslateBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("ancient_deepslate", new OreFeature(OreConfiguration.CODEC), AncientDeepslateBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("mega_clump_flesh", new OreFeature(OreConfiguration.CODEC), MegaClumpFleshBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("nepherite_jade_ore", new OreFeature(OreConfiguration.CODEC), NepheriteJadeOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 	}
 
 	private static void register(String registryname, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration stage) {

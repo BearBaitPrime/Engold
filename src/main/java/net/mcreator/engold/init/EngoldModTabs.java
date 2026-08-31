@@ -35,9 +35,14 @@ public class EngoldModTabs {
 					tabData.accept(EngoldModBlocks.MEGA_CLUMP_FLESH.asItem());
 					tabData.accept(EngoldModItems.MINERALS);
 					tabData.accept(EngoldModItems.STONE_RUBBLE);
+					tabData.accept(EngoldModItems.REINFORCEMENT_BEAM);
+					tabData.accept(EngoldModItems.REINFORCED_GRAPHENE_PICKAXE);
+					tabData.accept(EngoldModBlocks.NEPHERITE_JADE_ORE.asItem());
+					tabData.accept(EngoldModItems.NEPHERITE_JADE);
 				}).build());
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(tabData -> {
 			tabData.accept(EngoldModItems.GRAPHENE_PICKAXE);
+			tabData.accept(EngoldModItems.REINFORCED_GRAPHENE_PICKAXE);
 		});
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(tabData -> {
 			tabData.accept(EngoldModItems.MINERALS);

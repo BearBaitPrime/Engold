@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "engold:block/nepheritejadeore",
+    "up": "engold:block/nepheritejadeore",
+    "north": "engold:block/nepheritejadeore",
+    "east": "engold:block/nepheritejadeore",
+    "south": "engold:block/nepheritejadeore",
+    "west": "engold:block/nepheritejadeore",
+    "particle": "engold:block/nepheritejadeore"
+  }
+}
