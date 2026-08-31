@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:raw_iron",
+    "minecraft:stone_pickaxe",
+    "minecraft:diamond",
+    "minecraft:raw_gold",
+    "minecraft:emerald",
+    "minecraft:lapis_lazuli",
+    "engold:stone_rubble"
+  ],
+  "result": {
+    "id": "engold:minerals",
+    "count": 9
+  }
+}

@@ -23,6 +23,7 @@ public class EngoldModBlocks {
 	public static Block CALAMITY_CLUMP;
 	public static Block GRAPHENE_DEEPSLATE;
 	public static Block ANCIENT_DEEPSLATE;
+	public static Block MEGA_CLUMP_FLESH;
 
 	public static void load() {
 		GOLD_CLUMP = register("gold_clump", GoldClumpBlock::new);
@@ -32,6 +33,7 @@ public class EngoldModBlocks {
 		CALAMITY_CLUMP = register("calamity_clump", CalamityClumpBlock::new);
 		GRAPHENE_DEEPSLATE = register("graphene_deepslate", GrapheneDeepslateBlock::new);
 		ANCIENT_DEEPSLATE = register("ancient_deepslate", AncientDeepslateBlock::new);
+		MEGA_CLUMP_FLESH = register("mega_clump_flesh", MegaClumpFleshBlock::new);
 	}
 
 	// Start of user code block custom blocks

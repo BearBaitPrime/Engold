@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 20,
+  "cookingtime": 500,
+  "ingredient": "engold:minerals",
+  "result": {
+    "id": "engold:graphene"
+  }
+}

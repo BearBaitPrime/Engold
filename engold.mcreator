@@ -192,12 +192,105 @@
         ]
       },
       "path": "~/Major/Tools"
+    },
+    {
+      "name": "MegaClumpFlesh",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mega_clump_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/items/mega_clump_flesh.json",
+          "src/main/resources/assets/engold/blockstates/mega_clump_flesh.json",
+          "src/main/java/net/mcreator/engold/block/MegaClumpFleshBlock.java",
+          "src/main/resources/data/engold/worldgen/configured_feature/mega_clump_flesh.json",
+          "src/main/resources/data/engold/loot_table/blocks/mega_clump_flesh.json",
+          "src/main/resources/assets/engold/models/item/mega_clump_flesh.json",
+          "src/main/resources/assets/engold/models/block/mega_clump_flesh.json",
+          "src/main/resources/data/engold/worldgen/placed_feature/mega_clump_flesh.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "Minerals",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minerals",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/item/minerals.json",
+          "src/main/resources/assets/engold/items/minerals.json",
+          "src/main/java/net/mcreator/engold/item/MineralsItem.java"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "Mineralcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineralcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/advancement/recipes/mineralcraft.json",
+          "src/main/resources/data/engold/recipe/mineralcraft.json"
+        ]
+      },
+      "path": "~/Major/Crafting"
+    },
+    {
+      "name": "StoneRubble",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_rubble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/item/stone_rubble.json",
+          "src/main/java/net/mcreator/engold/item/StoneRubbleItem.java",
+          "src/main/resources/assets/engold/items/stone_rubble.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "StoneRubbleCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_rubble_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/recipe/stone_rubble_craft.json",
+          "src/main/resources/data/engold/advancement/recipes/stone_rubble_craft.json"
+        ]
+      },
+      "path": "~/Major/Crafting"
+    },
+    {
+      "name": "GrapheneCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphene_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/advancement/recipes/graphene_craft.json",
+          "src/main/resources/data/engold/recipe/graphene_craft.json"
+        ]
+      },
+      "path": "~/Major/Crafting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~MegaClumpFlesh@CUSTOM:MegaClumpFlesh",
       "~DiamondClump@CUSTOM:DiamondClump",
       "~GrapheneDeepslate@CUSTOM:GrapheneDeepslate",
       "~AncientDeepslate@CUSTOM:AncientDeepslate",
@@ -207,6 +300,7 @@
       "~GoldClump@CUSTOM:GoldClump"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~MegaClumpFlesh@CUSTOM:MegaClumpFlesh",
       "~Ironclump@CUSTOM:Ironclump",
       "~GoldClump@CUSTOM:GoldClump"
     ],
@@ -234,7 +328,10 @@
       "item.engold.graphene_deepslate": "Graphene Deepslate Ore",
       "item.engold.ancient_deepslate": "Ancient Deepslate",
       "item.engold.graphene": "Graphene",
-      "item.engold.graphene_pickaxe": "Graphene Pickaxe"
+      "item.engold.graphene_pickaxe": "Graphene Pickaxe",
+      "item.engold.mega_clump_flesh": "Mega Clump Flesh",
+      "item.engold.minerals": "Minerals",
+      "item.engold.stone_rubble": "Stone Rubble"
     }
   },
   "metadata": {
@@ -294,6 +391,14 @@
           {
             "name": "Tools",
             "children": []
+          },
+          {
+            "name": "Biomes",
+            "children": []
+          },
+          {
+            "name": "Crafting",
+            "children": []
           }
         ]
       },
@@ -319,7 +424,7 @@
   "workspaceSettings": {
     "modid": "engold",
     "modName": "Engold",
-    "version": "0.0.1-2",
+    "version": "0.0.1 Beta-release",
     "description": "Read Curseforge page.",
     "author": "BearBait",
     "websiteURL": "https://mcreator.net",

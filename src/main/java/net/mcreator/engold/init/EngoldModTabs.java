@@ -32,9 +32,16 @@ public class EngoldModTabs {
 					tabData.accept(EngoldModBlocks.ANCIENT_DEEPSLATE.asItem());
 					tabData.accept(EngoldModItems.GRAPHENE);
 					tabData.accept(EngoldModItems.GRAPHENE_PICKAXE);
+					tabData.accept(EngoldModBlocks.MEGA_CLUMP_FLESH.asItem());
+					tabData.accept(EngoldModItems.MINERALS);
+					tabData.accept(EngoldModItems.STONE_RUBBLE);
 				}).build());
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(tabData -> {
 			tabData.accept(EngoldModItems.GRAPHENE_PICKAXE);
+		});
+		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(tabData -> {
+			tabData.accept(EngoldModItems.MINERALS);
+			tabData.accept(EngoldModItems.STONE_RUBBLE);
 		});
 	}
 }

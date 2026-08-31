@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:Minerals"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 20.0,
+    "cookingTime": 500,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": "CUSTOM:Minerals",
+    "blastingReturnStack": "CUSTOM:Graphene",
+    "name": "graphene_craft",
+    "namespace": "mod"
+  }
+}

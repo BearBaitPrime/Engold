@@ -1,0 +1,398 @@
+{
+  "mod_elements": [
+    {
+      "name": "GoldClump",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_clump",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/items/gold_clump.json",
+          "src/main/resources/assets/engold/models/block/gold_clump.json",
+          "src/main/resources/data/engold/worldgen/configured_feature/gold_clump.json",
+          "src/main/resources/data/engold/worldgen/placed_feature/gold_clump.json",
+          "src/main/resources/data/engold/loot_table/blocks/gold_clump.json",
+          "src/main/java/net/mcreator/engold/block/GoldClumpBlock.java",
+          "src/main/resources/assets/engold/blockstates/gold_clump.json",
+          "src/main/resources/assets/engold/models/item/gold_clump.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "DiamondClump",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_clump",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/loot_table/blocks/diamond_clump.json",
+          "src/main/resources/assets/engold/blockstates/diamond_clump.json",
+          "src/main/java/net/mcreator/engold/block/DiamondClumpBlock.java",
+          "src/main/resources/data/engold/worldgen/placed_feature/diamond_clump.json",
+          "src/main/resources/assets/engold/models/item/diamond_clump.json",
+          "src/main/resources/data/engold/worldgen/configured_feature/diamond_clump.json",
+          "src/main/resources/assets/engold/items/diamond_clump.json",
+          "src/main/resources/assets/engold/models/block/diamond_clump.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "EmeraldClump",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_clump",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/worldgen/placed_feature/emerald_clump.json",
+          "src/main/resources/assets/engold/blockstates/emerald_clump.json",
+          "src/main/resources/assets/engold/items/emerald_clump.json",
+          "src/main/resources/assets/engold/models/block/emerald_clump.json",
+          "src/main/resources/assets/engold/models/item/emerald_clump.json",
+          "src/main/resources/data/engold/worldgen/configured_feature/emerald_clump.json",
+          "src/main/java/net/mcreator/engold/block/EmeraldClumpBlock.java",
+          "src/main/resources/data/engold/loot_table/blocks/emerald_clump.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "Ironclump",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironclump",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/worldgen/placed_feature/ironclump.json",
+          "src/main/resources/assets/engold/models/block/ironclump.json",
+          "src/main/java/net/mcreator/engold/block/IronclumpBlock.java",
+          "src/main/resources/assets/engold/models/item/ironclump.json",
+          "src/main/resources/data/engold/worldgen/configured_feature/ironclump.json",
+          "src/main/resources/data/engold/loot_table/blocks/ironclump.json",
+          "src/main/resources/assets/engold/blockstates/ironclump.json",
+          "src/main/resources/assets/engold/items/ironclump.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "Engold",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engold",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "CalamityClump",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calamity_clump",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/worldgen/placed_feature/calamity_clump.json",
+          "src/main/resources/assets/engold/blockstates/calamity_clump.json",
+          "src/main/java/net/mcreator/engold/block/CalamityClumpBlock.java",
+          "src/main/resources/data/engold/worldgen/configured_feature/calamity_clump.json",
+          "src/main/resources/assets/engold/models/item/calamity_clump.json",
+          "src/main/resources/assets/engold/items/calamity_clump.json",
+          "src/main/resources/assets/engold/models/block/calamity_clump.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "Calamityloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calamityloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/loot_table/blocks/calamity_clump.json"
+        ]
+      },
+      "path": "~/Minor/loot.tables"
+    },
+    {
+      "name": "GrapheneDeepslate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphene_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/loot_table/blocks/graphene_deepslate.json",
+          "src/main/resources/assets/engold/blockstates/graphene_deepslate.json",
+          "src/main/resources/assets/engold/models/item/graphene_deepslate.json",
+          "src/main/resources/assets/engold/items/graphene_deepslate.json",
+          "src/main/resources/assets/engold/models/block/graphene_deepslate.json",
+          "src/main/resources/data/engold/worldgen/placed_feature/graphene_deepslate.json",
+          "src/main/java/net/mcreator/engold/block/GrapheneDeepslateBlock.java",
+          "src/main/resources/data/engold/worldgen/configured_feature/graphene_deepslate.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "AncientDeepslate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/worldgen/configured_feature/ancient_deepslate.json",
+          "src/main/resources/data/engold/worldgen/placed_feature/ancient_deepslate.json",
+          "src/main/resources/assets/engold/models/block/ancient_deepslate.json",
+          "src/main/resources/assets/engold/items/ancient_deepslate.json",
+          "src/main/java/net/mcreator/engold/block/AncientDeepslateBlock.java",
+          "src/main/resources/data/engold/loot_table/blocks/ancient_deepslate.json",
+          "src/main/resources/assets/engold/models/item/ancient_deepslate.json",
+          "src/main/resources/assets/engold/blockstates/ancient_deepslate.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "Graphene",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphene",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/item/graphene.json",
+          "src/main/java/net/mcreator/engold/item/GrapheneItem.java",
+          "src/main/resources/assets/engold/items/graphene.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "GraphenePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphene_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/items/graphene_pickaxe.json",
+          "src/main/java/net/mcreator/engold/item/GraphenePickaxeItem.java",
+          "src/main/resources/assets/engold/models/item/graphene_pickaxe.json"
+        ]
+      },
+      "path": "~/Major/Tools"
+    },
+    {
+      "name": "MegaClumpFlesh",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mega_clump_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/items/mega_clump_flesh.json",
+          "src/main/resources/assets/engold/blockstates/mega_clump_flesh.json",
+          "src/main/java/net/mcreator/engold/block/MegaClumpFleshBlock.java",
+          "src/main/resources/data/engold/worldgen/configured_feature/mega_clump_flesh.json",
+          "src/main/resources/data/engold/loot_table/blocks/mega_clump_flesh.json",
+          "src/main/resources/assets/engold/models/item/mega_clump_flesh.json",
+          "src/main/resources/assets/engold/models/block/mega_clump_flesh.json",
+          "src/main/resources/data/engold/worldgen/placed_feature/mega_clump_flesh.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "Minerals",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minerals",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/item/minerals.json",
+          "src/main/resources/assets/engold/items/minerals.json",
+          "src/main/java/net/mcreator/engold/item/MineralsItem.java"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "Mineralcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineralcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/advancement/recipes/mineralcraft.json",
+          "src/main/resources/data/engold/recipe/mineralcraft.json"
+        ]
+      },
+      "path": "~/Major/Crafting"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~MegaClumpFlesh@CUSTOM:MegaClumpFlesh",
+      "~DiamondClump@CUSTOM:DiamondClump",
+      "~GrapheneDeepslate@CUSTOM:GrapheneDeepslate",
+      "~AncientDeepslate@CUSTOM:AncientDeepslate",
+      "~CalamityClump@CUSTOM:CalamityClump",
+      "~Ironclump@CUSTOM:Ironclump",
+      "~EmeraldClump@CUSTOM:EmeraldClump",
+      "~GoldClump@CUSTOM:GoldClump"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~MegaClumpFlesh@CUSTOM:MegaClumpFlesh",
+      "~Ironclump@CUSTOM:Ironclump",
+      "~GoldClump@CUSTOM:GoldClump"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~DiamondClump@CUSTOM:DiamondClump",
+      "~CalamityClump@CUSTOM:CalamityClump",
+      "~EmeraldClump@CUSTOM:EmeraldClump"
+    ],
+    "ITEMS:engold:graphene_pickaxe_repair_items": [
+      "~GraphenePickaxe@CUSTOM:Graphene"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~GraphenePickaxe@CUSTOM:GraphenePickaxe"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.engold.gold_clump": "Gold Clump",
+      "item.engold.diamond_clump": "Diamond Clump",
+      "item.engold.emerald_clump": "Emerald Clump",
+      "item.engold.ironclump": "Ironclump",
+      "item_group.engold.engold": "Engold",
+      "item.engold.calamity_clump": "Calamity Clump",
+      "item.engold.graphene_deepslate": "Graphene Deepslate Ore",
+      "item.engold.ancient_deepslate": "Ancient Deepslate",
+      "item.engold.graphene": "Graphene",
+      "item.engold.graphene_pickaxe": "Graphene Pickaxe",
+      "item.engold.mega_clump_flesh": "Mega Clump Flesh",
+      "item.engold.minerals": "Minerals"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/engold/init/EngoldModBlocks.java",
+      "src/main/java/net/mcreator/engold/init/EngoldModItems.java",
+      "src/main/java/net/mcreator/engold/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/engold/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/engold/init/EngoldModFeatures.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/engold.mixins.json",
+      "src/main/java/net/mcreator/engold/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/engold/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/engold/EngoldModClient.java",
+      "src/main/java/net/mcreator/engold/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/engold/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/engold/event/PlayerEvents.java",
+      "src/main/resources/META-INF/engold.classtweaker",
+      "src/main/java/net/mcreator/engold/mixin/ExperienceOrbMixin.java",
+      "src/main/java/net/mcreator/engold/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/engold/event/ItemEvents.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/engold/init/EngoldModTabs.java",
+      "src/main/java/net/mcreator/engold/event/BlockEvents.java",
+      "src/main/java/net/mcreator/engold/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/engold/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/engold/EngoldMod.java",
+      "src/main/java/net/mcreator/engold/event/MiscEvents.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Major",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Ores",
+            "children": []
+          },
+          {
+            "name": "Entities",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Scripts",
+            "children": []
+          },
+          {
+            "name": "Tools",
+            "children": []
+          },
+          {
+            "name": "Biomes",
+            "children": []
+          },
+          {
+            "name": "Crafting",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Minor",
+        "children": [
+          {
+            "name": "Decorations",
+            "children": []
+          },
+          {
+            "name": "loot.tables",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Misc",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "engold",
+    "modName": "Engold",
+    "version": "0.0.1-2",
+    "description": "Read Curseforge page.",
+    "author": "BearBait",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-26.1.2",
+    "credits": "Mod Maker used-Mcreator ",
+    "modElementsPackage": "net.mcreator.engold"
+  },
+  "mcreatorVersion": 202600233518
+}

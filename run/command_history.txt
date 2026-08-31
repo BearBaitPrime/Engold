@@ -27,3 +27,4 @@
 /fill -74 -6 8 -92 -26 36 engold:ancient_deepslate destroy
 /gamemode survival
 /gamemode creative
+/gamemode survival

@@ -12,6 +12,8 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.engold.item.StoneRubbleItem;
+import net.mcreator.engold.item.MineralsItem;
 import net.mcreator.engold.item.GraphenePickaxeItem;
 import net.mcreator.engold.item.GrapheneItem;
 import net.mcreator.engold.EngoldMod;
@@ -28,6 +30,9 @@ public class EngoldModItems {
 	public static Item ANCIENT_DEEPSLATE;
 	public static Item GRAPHENE;
 	public static Item GRAPHENE_PICKAXE;
+	public static Item MEGA_CLUMP_FLESH;
+	public static Item MINERALS;
+	public static Item STONE_RUBBLE;
 
 	public static void load() {
 		GOLD_CLUMP = block(EngoldModBlocks.GOLD_CLUMP, "gold_clump", new Item.Properties().rarity(Rarity.UNCOMMON));
@@ -39,6 +44,9 @@ public class EngoldModItems {
 		ANCIENT_DEEPSLATE = block(EngoldModBlocks.ANCIENT_DEEPSLATE, "ancient_deepslate");
 		GRAPHENE = register("graphene", GrapheneItem::new);
 		GRAPHENE_PICKAXE = register("graphene_pickaxe", GraphenePickaxeItem::new);
+		MEGA_CLUMP_FLESH = block(EngoldModBlocks.MEGA_CLUMP_FLESH, "mega_clump_flesh", new Item.Properties().rarity(Rarity.UNCOMMON));
+		MINERALS = register("minerals", MineralsItem::new);
+		STONE_RUBBLE = register("stone_rubble", StoneRubbleItem::new);
 	}
 
 	// Start of user code block custom items

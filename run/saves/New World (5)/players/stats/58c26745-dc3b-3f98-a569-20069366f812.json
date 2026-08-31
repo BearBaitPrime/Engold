@@ -1,0 +1,44 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "engold:calamity_clump": 4,
+      "minecraft:netherite_pickaxe": 4,
+      "engold:ancient_deepslate": 4,
+      "engold:graphene_pickaxe": 4
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2589,
+      "minecraft:walk_one_cm": 4225,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 57,
+      "minecraft:play_time": 2589,
+      "minecraft:jump": 80,
+      "minecraft:time_since_death": 2589,
+      "minecraft:drop": 13,
+      "minecraft:sprint_one_cm": 4791,
+      "minecraft:fall_one_cm": 450,
+      "minecraft:swim_one_cm": 1340,
+      "minecraft:total_world_time": 3038,
+      "minecraft:fly_one_cm": 15813,
+      "minecraft:walk_on_water_one_cm": 461
+    },
+    "minecraft:dropped": {
+      "minecraft:raw_iron": 173,
+      "minecraft:diamond": 80,
+      "minecraft:raw_gold": 200,
+      "minecraft:emerald": 51
+    },
+    "minecraft:picked_up": {
+      "minecraft:raw_gold": 200,
+      "minecraft:diamond": 80,
+      "minecraft:emerald": 51,
+      "engold:ancient_deepslate": 4,
+      "minecraft:raw_iron": 173
+    },
+    "minecraft:mined": {
+      "engold:ancient_deepslate": 4,
+      "engold:calamity_clump": 4
+    }
+  },
+  "DataVersion": 4790
+}
