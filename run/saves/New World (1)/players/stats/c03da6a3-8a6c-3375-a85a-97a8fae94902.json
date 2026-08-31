@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 190,
+      "minecraft:time_since_rest": 22972,
+      "minecraft:walk_one_cm": 4875,
+      "minecraft:total_world_time": 25527,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 20339,
+      "minecraft:walk_on_water_one_cm": 44,
+      "minecraft:sneak_time": 449,
+      "minecraft:play_time": 22972,
+      "minecraft:jump": 7,
+      "minecraft:time_since_death": 22972,
+      "minecraft:drop": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:mycelium": 1
+    },
+    "minecraft:used": {
+      "engold:gold_clump": 1,
+      "engold:emerald_clump": 1,
+      "engold:calamity_clump": 8,
+      "engold:diamond_clump": 2,
+      "engold:ironclump": 1
+    }
+  },
+  "DataVersion": 4790
+}

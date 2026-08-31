@@ -1,0 +1,29 @@
+/locate biome minecraft:badlands
+/tp @s -988 73 -850
+/effect give @s minecraft:night_vision
+/gamemode spectator
+/gamemode creative
+/effect give @s minecraft:night_vision infinite
+/locate biome minecraft:mushroom_fields
+/tp @s 4336 70 -1745
+/effect give @s minecraft:night_vision infinite
+/gamemode spectator
+/gamemode creative
+/give @s engold:calamity_clump
+/gamemode survival
+/enchant @s minecraft:efficiency 3
+/enchant @a minecraft:efficiency 3
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode spectator
+/fill -67 81 40
+/fill -67 81 40 -25 -2 -73 engold:ancient_deepslate replace minecraft:air
+/fill -67 81 40 -25 -2 -73 engold:ancient_deepslate destroy
+/effect give @s minecraft:night_vision
+/gamemode creative
+/effect give @s minecraft:night_vision infinite
+/fill -74 -6 8
+/fill -74 -6 8 -92 -26 36 engold:ancient_deepslate destroy
+/gamemode survival
+/gamemode creative

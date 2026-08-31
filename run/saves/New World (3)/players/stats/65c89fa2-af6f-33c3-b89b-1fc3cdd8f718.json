@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:netherite_pickaxe": 1,
+      "engold:ancient_deepslate": 7,
+      "engold:graphene_deepslate": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 275,
+      "minecraft:time_since_rest": 1749,
+      "minecraft:walk_one_cm": 2609,
+      "minecraft:total_world_time": 1759,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 1661,
+      "minecraft:play_time": 1749,
+      "minecraft:jump": 4,
+      "minecraft:time_since_death": 1749
+    },
+    "minecraft:mined": {
+      "engold:ancient_deepslate": 1
+    },
+    "minecraft:picked_up": {
+      "engold:ancient_deepslate": 1
+    }
+  },
+  "DataVersion": 4790
+}

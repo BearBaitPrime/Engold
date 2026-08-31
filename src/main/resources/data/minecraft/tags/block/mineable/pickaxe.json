@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "engold:graphene_deepslate",
     "engold:calamity_clump",
+    "engold:ancient_deepslate",
     "engold:emerald_clump",
     "engold:gold_clump",
     "engold:diamond_clump",

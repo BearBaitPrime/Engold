@@ -1,0 +1,45 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "engold:gold_clump": 1,
+      "engold:emerald_clump": 1,
+      "engold:calamity_clump": 1,
+      "engold:diamond_clump": 1,
+      "engold:ironclump": 1,
+      "minecraft:netherite_pickaxe": 9,
+      "engold:ancient_deepslate": 1,
+      "engold:graphene_deepslate": 2
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2024,
+      "minecraft:time_since_rest": 1171,
+      "minecraft:fall_one_cm": 325,
+      "minecraft:walk_one_cm": 2627,
+      "minecraft:total_world_time": 1179,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 399,
+      "minecraft:play_time": 1171,
+      "minecraft:jump": 7,
+      "minecraft:time_since_death": 1171
+    },
+    "minecraft:mined": {
+      "engold:ancient_deepslate": 1,
+      "engold:ironclump": 1,
+      "minecraft:oak_leaves": 1,
+      "engold:emerald_clump": 1,
+      "engold:calamity_clump": 1,
+      "engold:graphene_deepslate": 2,
+      "engold:diamond_clump": 1,
+      "engold:gold_clump": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:raw_gold": 42,
+      "engold:graphene_deepslate": 2,
+      "minecraft:diamond": 32,
+      "minecraft:emerald": 21,
+      "engold:ancient_deepslate": 1,
+      "minecraft:raw_iron": 47
+    }
+  },
+  "DataVersion": 4790
+}

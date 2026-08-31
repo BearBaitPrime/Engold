@@ -1,0 +1,38 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "engold:ironclump": 1,
+      "engold:emerald_clump": 1,
+      "engold:calamity_clump": 1,
+      "engold:diamond_clump": 1,
+      "engold:gold_clump": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 3439,
+      "minecraft:time_since_rest": 1493,
+      "minecraft:fall_one_cm": 550,
+      "minecraft:walk_one_cm": 2902,
+      "minecraft:total_world_time": 1501,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 3543,
+      "minecraft:play_time": 1493,
+      "minecraft:jump": 14,
+      "minecraft:time_since_death": 1493
+    },
+    "minecraft:picked_up": {
+      "minecraft:raw_gold": 55,
+      "minecraft:diamond": 21,
+      "minecraft:emerald": 17,
+      "minecraft:raw_iron": 57
+    },
+    "minecraft:used": {
+      "engold:gold_clump": 1,
+      "engold:emerald_clump": 1,
+      "engold:calamity_clump": 1,
+      "engold:diamond_clump": 1,
+      "engold:ironclump": 1,
+      "minecraft:netherite_pickaxe": 5
+    }
+  },
+  "DataVersion": 4790
+}

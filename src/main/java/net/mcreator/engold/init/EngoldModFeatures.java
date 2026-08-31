@@ -13,11 +13,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
-import net.mcreator.engold.block.IronclumpBlock;
-import net.mcreator.engold.block.GoldClumpBlock;
-import net.mcreator.engold.block.EmeraldClumpBlock;
-import net.mcreator.engold.block.DiamondClumpBlock;
-import net.mcreator.engold.block.CalamityClumpBlock;
+import net.mcreator.engold.block.*;
 import net.mcreator.engold.EngoldMod;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
@@ -32,6 +28,8 @@ public class EngoldModFeatures {
 		register("emerald_clump", new OreFeature(OreConfiguration.CODEC), EmeraldClumpBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("ironclump", new OreFeature(OreConfiguration.CODEC), IronclumpBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("calamity_clump", new OreFeature(OreConfiguration.CODEC), CalamityClumpBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("graphene_deepslate", new OreFeature(OreConfiguration.CODEC), GrapheneDeepslateBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("ancient_deepslate", new OreFeature(OreConfiguration.CODEC), AncientDeepslateBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 	}
 
 	private static void register(String registryname, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration stage) {
