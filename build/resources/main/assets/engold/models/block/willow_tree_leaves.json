@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "engold:block/willowtreeleaves",
-    "particle": "engold:block/willowtreeleaves"
-  }
-}
