@@ -1,0 +1,6 @@
+.mcreator/local/
+.mcreator/caches/
+.gradle/
+build/
+bin/
+out/
