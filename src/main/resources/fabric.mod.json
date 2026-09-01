@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "engold",
-  "version": "0.0.1.Beta-release-2",
+  "version": "0.0.1.Alpha.Full.release",
   "name": "Engold",
   "description": "Read Curseforge page.",
   "authors": [
@@ -12,6 +12,7 @@
     "sources": ""
   },
   "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+  "icon": "logo.png",
   "environment": "*",
   "entrypoints": {
     "main": [

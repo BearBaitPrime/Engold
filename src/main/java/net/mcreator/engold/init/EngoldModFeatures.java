@@ -32,6 +32,11 @@ public class EngoldModFeatures {
 		register("ancient_deepslate", new OreFeature(OreConfiguration.CODEC), AncientDeepslateBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("mega_clump_flesh", new OreFeature(OreConfiguration.CODEC), MegaClumpFleshBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("nepherite_jade_ore", new OreFeature(OreConfiguration.CODEC), NepheriteJadeOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("mineralized_diamond_ore", new OreFeature(OreConfiguration.CODEC), MineralizedDiamondOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("titanite_ore", new OreFeature(OreConfiguration.CODEC), TitaniteOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("solar_ore", new OreFeature(OreConfiguration.CODEC), SolarOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("lunar_ore", new OreFeature(OreConfiguration.CODEC), LunarOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("eclipse_ore", new OreFeature(OreConfiguration.CODEC), EclipseOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 	}
 
 	private static void register(String registryname, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration stage) {

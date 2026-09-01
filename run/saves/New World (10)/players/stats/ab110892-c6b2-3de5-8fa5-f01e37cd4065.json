@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "engold:solar_ore": 1,
+      "engold:eclipse_ore": 1,
+      "minecraft:glow_item_frame": 3,
+      "engold:lunar_ore": 2
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 356,
+      "minecraft:time_since_rest": 2195,
+      "minecraft:walk_one_cm": 4735,
+      "minecraft:total_world_time": 2213,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 32126,
+      "minecraft:play_time": 2195,
+      "minecraft:jump": 4,
+      "minecraft:time_since_death": 2195
+    }
+  },
+  "DataVersion": 4790
+}

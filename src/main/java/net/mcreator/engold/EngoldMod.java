@@ -12,6 +12,7 @@ import net.mcreator.engold.init.EngoldModTabs;
 import net.mcreator.engold.init.EngoldModItems;
 import net.mcreator.engold.init.EngoldModFeatures;
 import net.mcreator.engold.init.EngoldModBlocks;
+import net.mcreator.engold.init.EngoldModBiomes;
 
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
@@ -43,6 +44,7 @@ public class EngoldMod implements ModInitializer {
 		EngoldModFeatures.load();
 		EngoldModBlocks.load();
 		EngoldModItems.load();
+		EngoldModBiomes.load();
 		tick();
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -1,8 +1,13 @@
 {
   "replace": false,
   "values": [
+    "engold:lunar_ore",
     "engold:calamity_clump",
+    "engold:solar_ore",
+    "engold:mineralized_diamond_ore",
     "engold:emerald_clump",
+    "engold:eclipse_ore",
+    "engold:titanite_ore",
     "engold:diamond_clump"
   ]
 }

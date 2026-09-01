@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-08-31 17:24:20 -0500"
+    },
+    "done": true
+  },
+  "engold:recipes/willow_log_craft": {
+    "criteria": {
+      "has_ingredient_0": "2026-08-31 17:24:19 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 4790
+}

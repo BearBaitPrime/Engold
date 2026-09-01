@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "engold:titanite_ore": 1,
+      "engold:mineralized_diamond_ore": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 5048,
+      "minecraft:time_since_rest": 3478,
+      "minecraft:walk_one_cm": 4949,
+      "minecraft:total_world_time": 5083,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 45010,
+      "minecraft:crouch_one_cm": 188,
+      "minecraft:sneak_time": 140,
+      "minecraft:play_time": 3478,
+      "minecraft:jump": 26,
+      "minecraft:time_since_death": 3168,
+      "minecraft:drop": 3
+    },
+    "minecraft:picked_up": {
+      "engold:titanite": 2,
+      "engold:mineralized_diamond": 2
+    },
+    "minecraft:dropped": {
+      "engold:titanite_ore": 1,
+      "engold:titanite": 1,
+      "engold:mineralized_diamond": 1
+    },
+    "minecraft:used": {
+      "engold:reinforced_graphene_pickaxe": 1,
+      "minecraft:ender_eye": 12,
+      "engold:titanite_ore": 1,
+      "minecraft:end_portal_frame": 13,
+      "engold:mineralized_diamond_ore": 1,
+      "engold:graphene_pickaxe": 4
+    }
+  },
+  "DataVersion": 4790
+}

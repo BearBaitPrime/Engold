@@ -1,0 +1,98 @@
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.engold.init;
+
+import net.minecraft.world.level.levelgen.placement.CaveSurface;
+import net.minecraft.world.level.levelgen.SurfaceRules;
+import net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator;
+import net.minecraft.world.level.dimension.LevelStem;
+import net.minecraft.world.level.dimension.DimensionType;
+import net.minecraft.world.level.dimension.BuiltinDimensionTypes;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.biome.Climate;
+import net.minecraft.world.level.biome.Biome;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.core.Registry;
+import net.minecraft.core.Holder;
+
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
+
+import java.util.function.Function;
+import java.util.List;
+import java.util.ArrayList;
+
+import com.mojang.datafixers.util.Pair;
+
+public class EngoldModBiomes {
+	public static final Identifier OVERWORLD_BIOMESOURCE_PRESET_ID = Identifier.withDefaultNamespace("overworld");
+	public static final Identifier NETHER_BIOMESOURCE_PRESET_ID = Identifier.withDefaultNamespace("nether");
+	private static boolean BOOTSTRAP_VALIDATION_PASSED = false;
+
+	public static void load() {
+		BOOTSTRAP_VALIDATION_PASSED = true;
+		ServerLifecycleEvents.SERVER_STARTING.register((server) -> {
+			Registry<LevelStem> levelStemTypeRegistry = server.registryAccess().lookupOrThrow(Registries.LEVEL_STEM);
+			for (LevelStem levelStem : levelStemTypeRegistry.stream().toList()) {
+				Holder<DimensionType> dimensionType = levelStem.type();
+				if (dimensionType.is(BuiltinDimensionTypes.NETHER) || dimensionType.is(BuiltinDimensionTypes.OVERWORLD)) {
+					if (levelStem.generator() instanceof NoiseBasedChunkGenerator noiseGenerator) {
+						((EngoldModNoiseGeneratorSettings) (Object) noiseGenerator.generatorSettings().value()).setengoldDimensionTypeReference(dimensionType);
+					}
+				}
+			}
+		});
+	}
+
+	public static SurfaceRules.RuleSource adaptSurfaceRule(SurfaceRules.RuleSource currentRuleSource, Holder<DimensionType> dimensionType) {
+		if (dimensionType.is(BuiltinDimensionTypes.OVERWORLD))
+			return injectOverworldSurfaceRules(currentRuleSource);
+		return currentRuleSource;
+	}
+
+	public static <T> Climate.ParameterList<T> adaptPresetParameterList(Identifier idArg, Climate.ParameterList<T> originalList, Function<ResourceKey<Biome>, T> lookup) {
+		if (!BOOTSTRAP_VALIDATION_PASSED)
+			return originalList;
+		if (idArg.equals(OVERWORLD_BIOMESOURCE_PRESET_ID))
+			return EngoldModBiomes.modifyOverworldParameterPoints(originalList, lookup);
+		return originalList;
+	}
+
+	private static SurfaceRules.RuleSource injectOverworldSurfaceRules(SurfaceRules.RuleSource currentRuleSource) {
+		List<SurfaceRules.RuleSource> customSurfaceRules = new ArrayList<>();
+		customSurfaceRules
+				.add(preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("engold", "willow_biome")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.GRAVEL.defaultBlockState()));
+		if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
+			customSurfaceRules.addAll(sequenceRuleSource.sequence());
+			return SurfaceRules.sequence(customSurfaceRules.toArray(SurfaceRules.RuleSource[]::new));
+		} else {
+			customSurfaceRules.add(currentRuleSource);
+			return SurfaceRules.sequence(customSurfaceRules.toArray(SurfaceRules.RuleSource[]::new));
+		}
+	}
+
+	public static <T> Climate.ParameterList<T> modifyOverworldParameterPoints(Climate.ParameterList<T> originalList, Function<ResourceKey<Biome>, T> lookup) {
+		List<Pair<Climate.ParameterPoint, T>> parameters = new ArrayList<>(originalList.values());
+		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(0.0f),
+				Climate.Parameter.span(-1f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("engold", "willow_biome")))));
+		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(1.0f),
+				Climate.Parameter.span(-1f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("engold", "willow_biome")))));
+		return new Climate.ParameterList<>(parameters);
+	}
+
+	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
+		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
+				SurfaceRules.ifTrue(SurfaceRules.abovePreliminarySurface(),
+						SurfaceRules.sequence(
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
+										SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock)))));
+	}
+
+	public interface EngoldModNoiseGeneratorSettings {
+		void setengoldDimensionTypeReference(Holder<DimensionType> dimensionType);
+	}
+}

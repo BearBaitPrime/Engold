@@ -1,8 +1,3 @@
-/locate biome minecraft:badlands
-/tp @s -988 73 -850
-/effect give @s minecraft:night_vision
-/gamemode spectator
-/gamemode creative
 /effect give @s minecraft:night_vision infinite
 /locate biome minecraft:mushroom_fields
 /tp @s 4336 70 -1745
@@ -28,3 +23,28 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
+/gamemode creative
+/gamemode survival
+/give @s minecraft:obsidian 3
+/enchant @a minecraft:efficiency 3
+/gamemode survival
+/gamemode creative
+/kill @e[type=minecraft:ender_dragon]
+/locate biome engold:willow_biome
+/tp @s -474 63 568
+/tp @s 2000 120 2000
+/locate biome engold:willow_biome
+/tp @s 1392 120 2672
+/give @s engold:waudhywhn_01dynsorhtwmtq
+/gamemode survival
+/enchant @a minecraft:efficiency 3
+/give @p diamond_pickaxe[enchantments={"minecraft:efficiency":12}]
+/give @p diamond_pickaxe[enchantments={"minecraft:efficiency":225}]
+/tick rate 200
+/time set minecraft:day
+/tp @s ~ 240 ~
+/locate biome minecraft:jagged_peaks
+/tp @s 757 208 -544
+/give @s engold:eclipse_solid_form
+/effect give @a minecraft:night_vision infinite
+/gamemode spectator

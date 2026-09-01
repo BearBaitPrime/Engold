@@ -39,10 +39,24 @@ public class EngoldModTabs {
 					tabData.accept(EngoldModItems.REINFORCED_GRAPHENE_PICKAXE);
 					tabData.accept(EngoldModBlocks.NEPHERITE_JADE_ORE.asItem());
 					tabData.accept(EngoldModItems.NEPHERITE_JADE);
+					tabData.accept(EngoldModBlocks.MINERALIZED_DIAMOND_ORE.asItem());
+					tabData.accept(EngoldModItems.MINERALIZED_DIAMOND);
+					tabData.accept(EngoldModBlocks.TITANITE_ORE.asItem());
+					tabData.accept(EngoldModItems.TITANITE);
+					tabData.accept(EngoldModBlocks.WILLOW_TREE_LOG.asItem());
+					tabData.accept(EngoldModBlocks.WILLOW_TREE_LEAVES.asItem());
+					tabData.accept(EngoldModItems.ENVOX_SWORD);
+					tabData.accept(EngoldModBlocks.SOLAR_ORE.asItem());
+					tabData.accept(EngoldModItems.SOLAR_SOLID_FORM);
+					tabData.accept(EngoldModBlocks.LUNAR_ORE.asItem());
+					tabData.accept(EngoldModItems.LUNAR_SOLID_FORM);
+					tabData.accept(EngoldModBlocks.ECLIPSE_ORE.asItem());
+					tabData.accept(EngoldModItems.ECLIPSE_SOLID_FORM);
 				}).build());
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(tabData -> {
 			tabData.accept(EngoldModItems.GRAPHENE_PICKAXE);
 			tabData.accept(EngoldModItems.REINFORCED_GRAPHENE_PICKAXE);
+			tabData.accept(EngoldModItems.ENVOX_SWORD);
 		});
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(tabData -> {
 			tabData.accept(EngoldModItems.MINERALS);

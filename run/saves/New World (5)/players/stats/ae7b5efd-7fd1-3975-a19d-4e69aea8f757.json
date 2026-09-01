@@ -1,0 +1,69 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "engold:gold_clump": 3,
+      "engold:emerald_clump": 3,
+      "engold:ironclump": 3,
+      "engold:mega_clump_flesh": 2,
+      "engold:nepherite_jade_ore": 1,
+      "engold:ancient_deepslate": 5,
+      "engold:graphene_pickaxe": 21,
+      "minecraft:cobblestone": 49,
+      "engold:reinforced_graphene_pickaxe": 56,
+      "engold:calamity_clump": 4,
+      "engold:diamond_clump": 3,
+      "minecraft:netherite_pickaxe": 21,
+      "minecraft:obsidian": 6,
+      "engold:graphene_deepslate": 3
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 4,
+      "engold:ancient_deepslate": 3,
+      "engold:ironclump": 3,
+      "engold:emerald_clump": 3,
+      "engold:calamity_clump": 3,
+      "engold:graphene_deepslate": 3,
+      "minecraft:obsidian": 6,
+      "minecraft:cobblestone": 49,
+      "engold:diamond_clump": 3,
+      "engold:gold_clump": 3,
+      "minecraft:stone": 22
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 7515,
+      "minecraft:walk_one_cm": 16474,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 7515,
+      "minecraft:jump": 95,
+      "minecraft:time_since_death": 7515,
+      "minecraft:drop": 5,
+      "minecraft:sprint_one_cm": 12780,
+      "minecraft:fall_one_cm": 775,
+      "minecraft:total_world_time": 7780,
+      "minecraft:fly_one_cm": 34650,
+      "minecraft:crouch_one_cm": 612,
+      "minecraft:sneak_time": 113
+    },
+    "minecraft:picked_up": {
+      "engold:reinforcement_beam": 2,
+      "engold:stone_rubble": 1,
+      "minecraft:raw_gold": 164,
+      "minecraft:cobblestone": 71,
+      "minecraft:obsidian": 6,
+      "minecraft:diamond": 83,
+      "engold:reinforced_graphene_pickaxe": 1,
+      "minecraft:emerald": 73,
+      "engold:graphene": 9,
+      "engold:ancient_deepslate": 3,
+      "minecraft:raw_iron": 123,
+      "engold:graphene_pickaxe": 1
+    },
+    "minecraft:dropped": {
+      "engold:reinforcement_beam": 2,
+      "engold:reinforced_graphene_pickaxe": 1,
+      "engold:stone_rubble": 1,
+      "engold:graphene_pickaxe": 1
+    }
+  },
+  "DataVersion": 4790
+}

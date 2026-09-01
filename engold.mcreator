@@ -418,16 +418,323 @@
         ]
       },
       "path": "~/Major/Ores"
+    },
+    {
+      "name": "Crystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/item/crystal.json",
+          "src/main/resources/assets/engold/items/crystal.json",
+          "src/main/java/net/mcreator/engold/item/CrystalItem.java"
+        ]
+      },
+      "path": "~/Major/Items"
+    },
+    {
+      "name": "MineralizedDiamondOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineralized_diamond_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/loot_table/blocks/mineralized_diamond_ore.json",
+          "src/main/resources/assets/engold/models/block/mineralized_diamond_ore.json",
+          "src/main/resources/assets/engold/blockstates/mineralized_diamond_ore.json",
+          "src/main/resources/data/engold/worldgen/configured_feature/mineralized_diamond_ore.json",
+          "src/main/resources/assets/engold/models/item/mineralized_diamond_ore.json",
+          "src/main/java/net/mcreator/engold/block/MineralizedDiamondOreBlock.java",
+          "src/main/resources/data/engold/worldgen/placed_feature/mineralized_diamond_ore.json",
+          "src/main/resources/assets/engold/items/mineralized_diamond_ore.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "MineralizedDiamond",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineralized_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/items/mineralized_diamond.json",
+          "src/main/resources/assets/engold/models/item/mineralized_diamond.json",
+          "src/main/java/net/mcreator/engold/item/MineralizedDiamondItem.java"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "TitaniteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/block/titanite_ore.json",
+          "src/main/resources/data/engold/worldgen/placed_feature/titanite_ore.json",
+          "src/main/resources/assets/engold/items/titanite_ore.json",
+          "src/main/resources/assets/engold/blockstates/titanite_ore.json",
+          "src/main/resources/data/engold/worldgen/configured_feature/titanite_ore.json",
+          "src/main/java/net/mcreator/engold/block/TitaniteOreBlock.java",
+          "src/main/resources/data/engold/loot_table/blocks/titanite_ore.json",
+          "src/main/resources/assets/engold/models/item/titanite_ore.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "Titanite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/items/titanite.json",
+          "src/main/java/net/mcreator/engold/item/TitaniteItem.java",
+          "src/main/resources/assets/engold/models/item/titanite.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "WillowTreeLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_tree_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/items/willow_tree_log.json",
+          "src/main/resources/data/engold/loot_table/blocks/willow_tree_log.json",
+          "src/main/resources/assets/engold/models/item/willow_tree_log.json",
+          "src/main/resources/assets/engold/models/block/willow_tree_log.json",
+          "src/main/java/net/mcreator/engold/block/WillowTreeLogBlock.java",
+          "src/main/resources/assets/engold/blockstates/willow_tree_log.json"
+        ]
+      },
+      "path": "~/Major/Blocks"
+    },
+    {
+      "name": "WillowTreeLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_tree_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/engold/block/WillowTreeLeavesBlock.java",
+          "src/main/resources/assets/engold/models/block/willow_tree_leaves.json",
+          "src/main/resources/data/engold/loot_table/blocks/willow_tree_leaves.json",
+          "src/main/resources/assets/engold/items/willow_tree_leaves.json",
+          "src/main/resources/assets/engold/models/item/willow_tree_leaves.json",
+          "src/main/resources/assets/engold/blockstates/willow_tree_leaves.json"
+        ]
+      },
+      "path": "~/Major/Blocks"
+    },
+    {
+      "name": "WillowLogCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_log_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/advancement/recipes/willow_log_craft.json",
+          "src/main/resources/data/engold/recipe/willow_log_craft.json"
+        ]
+      },
+      "path": "~/Major/Crafting"
+    },
+    {
+      "name": "WillowBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/worldgen/biome/willow_biome.json",
+          "src/main/resources/data/engold/worldgen/configured_feature/willow_biome_tree.json",
+          "src/main/resources/data/engold/worldgen/placed_feature/willow_biome_tree.json"
+        ]
+      },
+      "path": "~/Major/Biomes"
+    },
+    {
+      "name": "EnvoxSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "envox_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/engold/item/EnvoxSwordItem.java",
+          "src/main/resources/assets/engold/models/item/envox_sword.json",
+          "src/main/resources/assets/engold/items/envox_sword.json"
+        ]
+      },
+      "path": "~/Major/Tools"
+    },
+    {
+      "name": "Waudhywhn01dynsorhtwmtq",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waudhywhn_01dynsorhtwmtq",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/loot_table/blocks/waudhywhn_01dynsorhtwmtq.json",
+          "src/main/resources/assets/engold/blockstates/waudhywhn_01dynsorhtwmtq.json",
+          "src/main/resources/assets/engold/items/waudhywhn_01dynsorhtwmtq.json",
+          "src/main/resources/assets/engold/models/item/waudhywhn_01dynsorhtwmtq.json",
+          "src/main/java/net/mcreator/engold/block/Waudhywhn01dynsorhtwmtqBlock.java",
+          "src/main/resources/assets/engold/models/block/waudhywhn_01dynsorhtwmtq.json"
+        ]
+      },
+      "path": "~/Major/Blocks"
+    },
+    {
+      "name": "SolarOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/block/solar_ore.json",
+          "src/main/resources/assets/engold/items/solar_ore.json",
+          "src/main/resources/data/engold/worldgen/configured_feature/solar_ore.json",
+          "src/main/resources/assets/engold/models/item/solar_ore.json",
+          "src/main/resources/data/engold/loot_table/blocks/solar_ore.json",
+          "src/main/java/net/mcreator/engold/block/SolarOreBlock.java",
+          "src/main/resources/assets/engold/blockstates/solar_ore.json",
+          "src/main/resources/data/engold/worldgen/placed_feature/solar_ore.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "SolarSolidForm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_solid_form",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/items/solar_solid_form.json",
+          "src/main/java/net/mcreator/engold/item/SolarSolidFormItem.java",
+          "src/main/resources/assets/engold/models/item/solar_solid_form.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "LunarOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunar_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/engold/block/LunarOreBlock.java",
+          "src/main/resources/assets/engold/items/lunar_ore.json",
+          "src/main/resources/data/engold/worldgen/configured_feature/lunar_ore.json",
+          "src/main/resources/data/engold/loot_table/blocks/lunar_ore.json",
+          "src/main/resources/assets/engold/models/item/lunar_ore.json",
+          "src/main/resources/data/engold/worldgen/placed_feature/lunar_ore.json",
+          "src/main/resources/assets/engold/models/block/lunar_ore.json",
+          "src/main/resources/assets/engold/blockstates/lunar_ore.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "LunarSolidForm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunar_solid_form",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/item/lunar_solid_form.json",
+          "src/main/resources/assets/engold/items/lunar_solid_form.json",
+          "src/main/java/net/mcreator/engold/item/LunarSolidFormItem.java"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "EclipseOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eclipse_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/engold/block/EclipseOreBlock.java",
+          "src/main/resources/data/engold/worldgen/configured_feature/eclipse_ore.json",
+          "src/main/resources/assets/engold/items/eclipse_ore.json",
+          "src/main/resources/data/engold/worldgen/placed_feature/eclipse_ore.json",
+          "src/main/resources/assets/engold/models/item/eclipse_ore.json",
+          "src/main/resources/assets/engold/models/block/eclipse_ore.json",
+          "src/main/resources/data/engold/loot_table/blocks/eclipse_ore.json",
+          "src/main/resources/assets/engold/blockstates/eclipse_ore.json"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "EclipseSolidForm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eclipse_solid_form",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/engold/models/item/eclipse_solid_form.json",
+          "src/main/resources/assets/engold/items/eclipse_solid_form.json",
+          "src/main/java/net/mcreator/engold/item/EclipseSolidFormItem.java"
+        ]
+      },
+      "path": "~/Major/Ores"
+    },
+    {
+      "name": "EnvoxSwordCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "envox_sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/engold/recipe/envox_sword_craft.json",
+          "src/main/resources/data/engold/advancement/recipes/envox_sword_craft.json"
+        ]
+      },
+      "path": "~/Major/Crafting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~AncientDeepslate@CUSTOM:AncientDeepslate",
+      "~SolarOre@CUSTOM:SolarOre",
+      "~LunarOre@CUSTOM:LunarOre",
+      "~EclipseOre@CUSTOM:EclipseOre",
+      "~TitaniteOre@CUSTOM:TitaniteOre",
+      "~MineralizedDiamondOre@CUSTOM:MineralizedDiamondOre",
       "~MegaClumpFlesh@CUSTOM:MegaClumpFlesh",
       "~DiamondClump@CUSTOM:DiamondClump",
       "~GrapheneDeepslate@CUSTOM:GrapheneDeepslate",
-      "~AncientDeepslate@CUSTOM:AncientDeepslate",
       "~CalamityClump@CUSTOM:CalamityClump",
       "~Ironclump@CUSTOM:Ironclump",
       "~EmeraldClump@CUSTOM:EmeraldClump",
@@ -439,6 +746,11 @@
       "~GoldClump@CUSTOM:GoldClump"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~SolarOre@CUSTOM:SolarOre",
+      "~LunarOre@CUSTOM:LunarOre",
+      "~EclipseOre@CUSTOM:EclipseOre",
+      "~TitaniteOre@CUSTOM:TitaniteOre",
+      "~MineralizedDiamondOre@CUSTOM:MineralizedDiamondOre",
       "~DiamondClump@CUSTOM:DiamondClump",
       "~CalamityClump@CUSTOM:CalamityClump",
       "~EmeraldClump@CUSTOM:EmeraldClump"
@@ -453,6 +765,25 @@
     "ITEMS:engold:reinforced_graphene_pickaxe_repair_items": [
       "~ReinforcedGraphenePickaxe@CUSTOM:PurifiedGrapheneOre",
       "~ReinforcedGraphenePickaxe@CUSTOM:ReinforcementBeam"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~WillowTreeLog@CUSTOM:WillowTreeLog"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~WillowTreeLeaves@CUSTOM:WillowTreeLeaves"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~WillowTreeLeaves@CUSTOM:WillowTreeLeaves"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:WillowTreeLog"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~EnvoxSword@CUSTOM:EnvoxSword"
+    ],
+    "ITEMS:engold:envox_sword_repair_items": [
+      "~EnvoxSword@CUSTOM:MineralizedDiamond",
+      "~EnvoxSword@CUSTOM:Titanite"
     ]
   },
   "tab_element_order": {},
@@ -475,11 +806,31 @@
       "item.engold.purified_graphene_ore": "Purified Graphene Ore",
       "item.engold.reinforced_graphene_pickaxe": "Reinforced Graphene Pickaxe",
       "item.engold.nepherite_jade_ore": "Nepherite Jade Ore",
-      "item.engold.nepherite_jade": "Nepherite Jade"
+      "item.engold.nepherite_jade": "Nepherite Jade",
+      "item.engold.crystal": "Crystal",
+      "item.engold.mineralized_diamond_ore": "Mineralized Diamond Ore",
+      "item.engold.mineralized_diamond": "Mineralized Diamond",
+      "item.engold.titanite_ore": "Titanite Ore",
+      "item.engold.titanite": "Titanite",
+      "item.engold.willow_tree_log": "Willow Tree Log",
+      "item.engold.willow_tree_leaves": "Willow Tree Leaves",
+      "biome.engold.willow_biome": "Willow Biome",
+      "item.engold.envox_sword": "Envox Sword",
+      "item.engold.waudhywhn_01dynsorhtwmtq": "Waudhywhn01dynsorhtwmtq",
+      "item.engold.solar_ore": "Solar Ore",
+      "item.engold.solar_solid_form": "Solar Solid Form",
+      "item.engold.lunar_ore": "Lunar Ore",
+      "item.engold.lunar_solid_form": "Lunar Solid Form",
+      "item.engold.eclipse_ore": "Eclipse Ore",
+      "item.engold.eclipse_solid_form": "Eclipse Solid Form"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/engold/mixin/LevelStorageSourceMixin.java",
+      "src/main/java/net/mcreator/engold/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/engold/init/EngoldModBiomes.java",
+      "src/main/java/net/mcreator/engold/mixin/BiomeSourcePresetMixin.java",
       "src/main/java/net/mcreator/engold/init/EngoldModBlocks.java",
       "src/main/java/net/mcreator/engold/init/EngoldModItems.java",
       "src/main/java/net/mcreator/engold/mixin/ServerPlayerMixin.java",
@@ -568,12 +919,13 @@
   "workspaceSettings": {
     "modid": "engold",
     "modName": "Engold",
-    "version": "0.0.1 Beta-release-2",
+    "version": "0.0.1 Alpha Full release",
     "description": "Read Curseforge page.",
     "author": "BearBait",
     "websiteURL": "https://mcreator.net",
     "license": "GNU Lesser General Public License version 3 (LGPLv3)",
     "serverSideOnly": false,
+    "modPicture": "engold",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

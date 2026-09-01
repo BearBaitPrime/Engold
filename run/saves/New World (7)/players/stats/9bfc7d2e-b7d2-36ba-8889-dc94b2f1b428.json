@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "engold:reinforced_graphene_pickaxe": 7,
+      "minecraft:diamond_pickaxe": 15,
+      "minecraft:mossy_cobblestone": 13,
+      "engold:waudhywhn_01dynsorhtwmtq": 11
+    },
+    "minecraft:mined": {
+      "engold:waudhywhn_01dynsorhtwmtq": 1,
+      "minecraft:fern": 2,
+      "minecraft:mossy_cobblestone": 21
+    },
+    "minecraft:picked_up": {
+      "engold:titanite": 1,
+      "minecraft:mossy_cobblestone": 21,
+      "minecraft:wheat_seeds": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2118,
+      "minecraft:time_since_rest": 29313,
+      "minecraft:walk_one_cm": 3985,
+      "minecraft:total_world_time": 31960,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 885,
+      "minecraft:crouch_one_cm": 68,
+      "minecraft:damage_taken": 50,
+      "minecraft:sneak_time": 22,
+      "minecraft:play_time": 29313,
+      "minecraft:jump": 13,
+      "minecraft:time_since_death": 29313
+    }
+  },
+  "DataVersion": 4790
+}
