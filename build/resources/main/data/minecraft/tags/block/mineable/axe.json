@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "engold:red_wood_tree_log",
+    "engold:maple_tree_log",
+    "engold:willow_tree_log"
+  ]
+}

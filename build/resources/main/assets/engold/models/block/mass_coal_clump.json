@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "engold:block/densemasscoalclump",
+    "up": "engold:block/densemasscoalclump",
+    "north": "engold:block/densemasscoalclump",
+    "east": "engold:block/densemasscoalclump",
+    "south": "engold:block/densemasscoalclump",
+    "west": "engold:block/densemasscoalclump",
+    "particle": "engold:block/densemasscoalclump"
+  }
+}

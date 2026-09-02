@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "engold:block/lunarore",
+    "up": "engold:block/lunarore",
+    "north": "engold:block/lunarore",
+    "east": "engold:block/lunarore",
+    "south": "engold:block/lunarore",
+    "west": "engold:block/lunarore",
+    "particle": "engold:block/lunarore"
+  }
+}

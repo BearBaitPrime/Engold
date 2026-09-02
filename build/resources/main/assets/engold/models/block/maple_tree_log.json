@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "engold:block/mapletreelogtop",
+    "up": "engold:block/mapletreelogtop",
+    "north": "engold:block/mapletreelog",
+    "east": "engold:block/mapletreelog",
+    "south": "engold:block/mapletreelog",
+    "west": "engold:block/mapletreelog",
+    "particle": "engold:block/mapletreelogtop"
+  }
+}

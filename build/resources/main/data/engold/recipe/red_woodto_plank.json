@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "engold:red_wood_tree_log"
+  ],
+  "result": {
+    "id": "minecraft:mangrove_planks",
+    "count": 4
+  }
+}

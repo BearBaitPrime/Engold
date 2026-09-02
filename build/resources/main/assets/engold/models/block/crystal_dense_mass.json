@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "engold:block/crystaldensemass",
+    "up": "engold:block/crystaldensemass",
+    "north": "engold:block/crystaldensemass",
+    "east": "engold:block/crystaldensemass",
+    "south": "engold:block/crystaldensemass",
+    "west": "engold:block/crystaldensemass",
+    "particle": "engold:block/crystaldensemass"
+  }
+}

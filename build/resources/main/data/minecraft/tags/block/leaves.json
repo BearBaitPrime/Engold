@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "engold:maple_tree_leaves",
+    "engold:redwood_leaves",
+    "engold:willow_tree_leaves"
+  ]
+}
