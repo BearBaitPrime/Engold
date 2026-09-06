@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "engold:sap_block",
+    "engold:willow_slab",
+    "engold:redwood_slab"
+  ]
+}

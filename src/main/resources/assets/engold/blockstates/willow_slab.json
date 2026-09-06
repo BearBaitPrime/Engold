@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "engold:block/willow_slab"
+    },
+    "type=top": {
+      "model": "engold:block/willow_slab_top"
+    },
+    "type=double": {
+      "model": "engold:block/willow_slab_full"
+    }
+  }
+}

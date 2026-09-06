@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "engold:block/sapblock",
+    "bottom": "engold:block/sapblock",
+    "top": "engold:block/sapblock",
+    "side": "engold:block/sapblock"
+  }
+}

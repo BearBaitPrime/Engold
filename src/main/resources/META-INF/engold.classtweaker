@@ -1,5 +1,8 @@
 classTweaker v1 official
 
+accessible class net/minecraft/world/level/levelgen/SurfaceRules$SequenceRuleSource
+accessible method net/minecraft/world/level/levelgen/SurfaceRules$SequenceRuleSource <init> (Ljava/util/List;)V
+accessible class net/minecraft/world/level/biome/MultiNoiseBiomeSourceParameterList$Preset$SourceProvider
 
 
 

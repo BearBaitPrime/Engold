@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "engold:crystal",
+  "result": {
+    "id": "engold:minerals",
+    "count": 8
+  }
+}

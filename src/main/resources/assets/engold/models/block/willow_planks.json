@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "engold:block/willowplanks",
+    "up": "engold:block/willowplanks",
+    "north": "engold:block/willowplanks",
+    "east": "engold:block/willowplanks",
+    "south": "engold:block/willowplanks",
+    "west": "engold:block/willowplanks",
+    "particle": "engold:block/willowplanks"
+  }
+}

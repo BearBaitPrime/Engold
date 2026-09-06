@@ -11,6 +11,9 @@
     "BoneMealItemMixin",
     "CommandsMixin",
     "ExperienceOrbMixin",
+    "NoiseGeneratorSettingsMixin",
+    "BiomeSourcePresetMixin",
+    "LevelStorageSourceMixin",
     "RepairItemRecipeMixin",
     "ServerPlayerMixin"
   ],

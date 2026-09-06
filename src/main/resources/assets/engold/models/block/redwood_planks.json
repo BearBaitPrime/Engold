@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "engold:block/redwoodplanks",
+    "up": "engold:block/redwoodplanks",
+    "north": "engold:block/redwoodplanks",
+    "east": "engold:block/redwoodplanks",
+    "south": "engold:block/redwoodplanks",
+    "west": "engold:block/redwoodplanks",
+    "particle": "engold:block/redwoodplanks"
+  }
+}

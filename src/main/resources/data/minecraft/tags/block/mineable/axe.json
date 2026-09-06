@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "engold:willow_planks",
+    "engold:red_wood_tree_log",
+    "engold:redwood_planks",
+    "engold:maple_tree_log",
+    "engold:willow_slab",
+    "engold:willow_tree_log",
+    "engold:willow_stairs",
+    "engold:redwood_stairs",
+    "engold:redwood_slab"
+  ]
+}

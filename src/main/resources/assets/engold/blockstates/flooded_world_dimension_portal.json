@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "engold:block/flooded_world_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "engold:block/flooded_world_dimension_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "engold:block/redwoodplanks",
+    "bottom": "engold:block/redwoodplanks",
+    "top": "engold:block/redwoodplanks",
+    "side": "engold:block/redwoodplanks"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "engold:block/willowplanks",
+    "bottom": "engold:block/willowplanks",
+    "top": "engold:block/willowplanks",
+    "side": "engold:block/willowplanks"
+  }
+}

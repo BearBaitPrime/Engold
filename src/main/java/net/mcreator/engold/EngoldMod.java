@@ -8,10 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.server.TickTask;
 
-import net.mcreator.engold.init.EngoldModTabs;
-import net.mcreator.engold.init.EngoldModItems;
-import net.mcreator.engold.init.EngoldModFeatures;
-import net.mcreator.engold.init.EngoldModBlocks;
+import net.mcreator.engold.init.*;
 
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
@@ -43,6 +40,8 @@ public class EngoldMod implements ModInitializer {
 		EngoldModFeatures.load();
 		EngoldModBlocks.load();
 		EngoldModItems.load();
+		EngoldModBiomes.load();
+		EngoldModDimensions.load();
 		tick();
 		// Start of user code block mod init
 		// End of user code block mod init
